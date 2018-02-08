@@ -81,12 +81,9 @@ let rec prods (lst : (int * int) list) : int list =
 Now reimplement prods using map and your uncurried times function. Why
 do you need the uncurried times function?
 ......................................................................*)
-(*
-let prods (lst : (int * int) list) : int list =
-  map 
-times 
-;; 
-*)
+
+let prods = failwith "max_list not implemented" ;;
+
 (*======================================================================
 Part 2: Option types
 
